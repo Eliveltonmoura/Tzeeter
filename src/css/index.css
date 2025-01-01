@@ -1,0 +1,60 @@
+
+
+body{
+    
+    background-color:white ;
+    color: rgb(15, 20, 25);
+}
+
+
+img{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+
+.navigation a, li{
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation li:hover{
+    background-color: rgba(15, 20, 25,0.1);
+    border-radius:4px ;
+    
+}
+ 
+.statistics li , a{
+    text-decoration: none;
+    list-style: none;
+}
+.statistics .numero{
+   color: rgb(15, 20, 25);
+   font-weight: bold;
+}
+.statistics a{
+    color: rgb(83, 100, 113);
+    
+}
+.statistics li:hover{
+    text-decoration: underline;
+}
+
+.Actions{
+    display: flex;
+    justify-content: space-around;
+}
+.Actions .comment{
+    color: rgba(29, 155, 240, 1)
+   
+}
+
+.Actions .repost{
+    color: rgba(0, 186, 124, 1)
+}
+
+.Actions .like{
+    color: rgba(249, 24, 128, 1)
+}
