@@ -73,3 +73,8 @@ body{
 .date{
     color: rgb(83, 100, 113);
 }
+
+
+.tzeet:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
