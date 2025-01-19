@@ -1,6 +1,5 @@
-
 .navlink {
-   
+
     font-size: 20px;
     font-weight: 500;
     color: #316cf4;
@@ -8,30 +7,34 @@
     background: 0 0;
     border: 0;
 }
+
 .navlink:hover {
     color: black;
 }
 
 
-.button-follow{
+.button-follow {
     background-color: #316cf4;
     border-radius: 5px;
     border: solid 1px #316cf4;
     color: white;
     margin-left: 50px;
-   
+
 }
 
-.react-chat{
+.react-chat {
     padding-right: 15px;
 }
-.react-upload{
+
+.react-upload {
     padding-right: 15px;
 }
-.react-heart{
+
+.react-heart {
     padding-right: 15px;
 }
-.react-repeat{
+
+.react-repeat {
     padding-right: 15px;
 }
 
@@ -39,21 +42,53 @@
 .react-chat:hover {
     color: #61dafb;
 
-    
+
 }
 
 
-.react-upload:hover{
+.react-upload:hover {
     color: #316cf4;
-    
+
 }
 
-.react-heart:hover{
+.react-heart:hover {
     color: #f074b0;
+
+}
+
+.react-repeat:hover {
+    color: #0abd81
+}
+
+.btn-tzeeter{
+    width: 100%;
+    background-color: #316cf4;
+    border-radius: 5px;
+    border: solid 1px #316cf4;
+    color: white;
     
 }
 
-.react-repeat:hover{
-    color: #0abd81
-    
+.btn-tzeeter-hidden{
+    color: transparent;
+}
+@media screen and (max-width: 600px) {
+
+    .navlink {
+       display: none;
+
+    }
+
+    .mobile {
+        font-size: 40px;
+        color: #316cf4;
+    }
+    .btn-tzeeter{
+        display: none;
+    }
+    .btn-tzeeter-hidden{
+       color: black
+
+        
+    }
 }
