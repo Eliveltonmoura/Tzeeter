@@ -69,13 +69,14 @@
     
 }
 
-.btn-tzeeter-hidden{
-    color: transparent;
-}
+
+
+
 @media screen and (max-width: 600px) {
 
     .navlink {
        display: none;
+       flex: 30px;
 
     }
 
@@ -83,12 +84,18 @@
         font-size: 40px;
         color: #316cf4;
     }
-    .btn-tzeeter{
-        display: none;
+    .btn-tzeeter {
+        border-radius: 35px;
+        width: 60px;
+        height: 60px;
+        color: #316cf4;
     }
-    .btn-tzeeter-hidden{
-       color: black
 
-        
-    }
+   .col-4 {
+       display: none;
+   } 
+
+
+
+
 }
