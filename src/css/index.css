@@ -1,80 +1,59 @@
 
-
-body{
-    
-    background-color:white ;
-    color: rgb(15, 20, 25);
-}
-
-.profilePicture , .perfiluser{
-    width: 64px;
-    height: 64px;
-    border-radius: 100%;
-}
-.perfiluser{
-    width: 20px;
-    height: 20px;
-    
-}
-
-
-.navigation a, li{
-    color: rgb(15, 20, 25);
+.navlink {
+   
+    font-size: 20px;
+    font-weight: 500;
+    color: #316cf4;
     text-decoration: none;
-    list-style: none;
+    background: 0 0;
+    border: 0;
+}
+.navlink:hover {
+    color: black;
 }
 
-.navigation li:hover{
-    background-color: rgba(15, 20, 25,0.1);
-    border-radius:10px ;
-    
-}
- 
-.statistics li , a{
-    text-decoration: none;
-    list-style: none;
-}
-.statistics .numero{
-   color: rgb(15, 20, 25);
-   font-weight: bold;
-}
-.statistics, a{
-    color: rgb(83, 100, 113);
-    
-}
-.statistics li:hover{
-    text-decoration: underline;
-}
 
-.actions{
-    display: flex;
-    justify-content: space-around;
-}
-.actions .comment{
-    color: rgba(29, 155, 240, 1)
+.button-follow{
+    background-color: #316cf4;
+    border-radius: 5px;
+    border: solid 1px #316cf4;
+    color: white;
+    margin-left: 50px;
    
 }
 
-.actions .repost{
-    color: rgba(0, 186, 124, 1)
+.react-chat{
+    padding-right: 15px;
+}
+.react-upload{
+    padding-right: 15px;
+}
+.react-heart{
+    padding-right: 15px;
+}
+.react-repeat{
+    padding-right: 15px;
 }
 
-.actions .like{
-    color: rgba(249, 24, 128, 1)
-}
 
-.actions img{
+.react-chat:hover {
+    color: #61dafb;
+
     
-    width: 16px;
-    height: 16px;
-    border-radius: 100%;
-}
-
-.date{
-    color: rgb(83, 100, 113);
 }
 
 
-.tzeet:hover{
-    background-color: rgba(0, 0, 0, 0.03);
+.react-upload:hover{
+    color: #316cf4;
+    
+}
+
+.react-heart:hover{
+    color: #f074b0;
+    
+}
+
+.react-repeat:hover{
+    color: #0abd81
+    
 }
