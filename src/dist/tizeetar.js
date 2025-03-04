@@ -17,13 +17,12 @@ function creatPost(texto) {
         <p>${texto}</p>
     <div>
     <div>
-         <span class="react-chat"> <i class="bi bi-chat"></i>500</span>
-        <span class="react-repeat"> <i class="bi-arrow-repeat"></i>120</span>
-        <span class="react-heart"> <i class="bi bi-heart"></i>200 </span>
+         <span class="react-chat"> <i class="bi bi-chat"></i>100</span>
+        <span class="react-repeat"> <i class="bi-arrow-repeat"></i>100</span>
+        <span class="react-heart"> <i class="bi bi-heart"></i>100 </span>
         <span class="react-upload"> <i class="bi bi-upload"></i></span>
         </div>
-    <hr>
-        
+    <hr>   
     `;
     postContainer.appendChild(post);
     tizeetar.reset();
