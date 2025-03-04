@@ -14,6 +14,6 @@ formLogin.addEventListener('submit', (e) => {
         alert('Talvez o email esteja  esse elivelton@gmail.com');
     }
     else if (password.value != '1234567') {
-        alert('Talvez a senha esteja essa 234567');
+        alert('Talvez a senha esteja essa 1234567');
     }
 });
