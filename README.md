@@ -58,8 +58,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## 📜 Licença
 
-Este projeto está sob a licença MIT.
-
 ---
 
 Desenvolvido por **Elivelton Moura** 🔥
